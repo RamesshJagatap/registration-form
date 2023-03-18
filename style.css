@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body{
+    background: #9ea7b4;
+}
+.container{
+    max-width: 900px;
+    margin:50px auto;  
+    
+}
+.apply_box{
+    max-width: 600px;
+    background: rgb(128, 160, 160);
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 4px 5px 6px rgba(1, 1 ,1, 0.1);
+    border-radius: 12px;
+
+}
+
+.form_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.form_control{
+    display: flex;
+    flex-direction: column;
+}
+input,select,textarea{
+    padding:15px;
+    border-radius: 8px;
+}
+
+label{
+    margin: 5px;
+}
+
+submitt,reset{
+    padding: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
